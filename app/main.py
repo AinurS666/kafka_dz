@@ -22,4 +22,5 @@ def consume_message():
 if __name__ == '__main__':
     produce_message()
     time.sleep(2)
+
     consume_message()
